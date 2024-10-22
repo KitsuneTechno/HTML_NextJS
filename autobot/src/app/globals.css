@@ -8,7 +8,12 @@
     @apply flex justify-between;
 
     & ul{
-      @apply list-none;
+      @apply list-none flex items-center justify-end gap-8;
+    }
+
+    & a{
+      @apply no-underline;
     }
   }
+
 }
