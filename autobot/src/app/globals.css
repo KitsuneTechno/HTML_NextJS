@@ -3,3 +3,12 @@
 @tailwind utilities;
 
 
+@layer components{
+  .navegacao{
+    @apply flex justify-between;
+
+    & ul{
+      @apply list-none;
+    }
+  }
+}
