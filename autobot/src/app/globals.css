@@ -31,4 +31,13 @@
     @apply hidden max-sm:flex;
   }
 
+  .footerList{
+    @apply flex flex-col mr-10 gap-2 sm:gap-3 list-none;
+
+    & a{
+      @apply no-underline text-gray-500 transition ease-in-out
+       hover:text-orange-600 text-sm sm:text-base;
+    }
+  }
+
 }
