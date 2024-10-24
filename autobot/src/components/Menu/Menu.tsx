@@ -41,7 +41,7 @@ export default function Menu() {
                         <Link href={"/sobre"}>Sobre nós</Link></li>
                     <li 
                     className="transition ease-in-out hover:text-orange-600 duration-200 md:text-sm">
-                        <Link href={"/membros"}>Chatbot</Link></li>
+                        <Link href={"/membros"}>Membros</Link></li>
                     <li className="md:navButton"><Link href={"/cliente"}>Área do Cliente</Link></li>
                 </ul>
             </div>
@@ -67,7 +67,7 @@ export default function Menu() {
                                 <Link href={"/sobre"}>Sobre nós</Link></li>
                             <li 
                             className="transition ease-in-out hover:bg-orange-600 rounded duration-200">
-                                <Link href={"/membros"}>Chatbot</Link></li>
+                                <Link href={"/membros"}>Membros</Link></li>
                             <li className="transition ease-in-out hover:bg-orange-600 rounded duration-200"><Link href={"/cliente"}>Área do Cliente</Link></li>
                         </ul>
                     </div>
