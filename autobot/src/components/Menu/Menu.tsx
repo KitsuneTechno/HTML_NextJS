@@ -48,7 +48,7 @@ export default function Menu() {
 
             <button onClick={toggleMenu} className="block md:hidden">
                 {
-                    isOpen ? <CloseBtn/> : <Burguer/>
+                    isOpen ? <CloseBtn className="text-2xl"/> : <Burguer className="text-2xl"/>
                 }
             </button>
             
@@ -57,18 +57,18 @@ export default function Menu() {
                     <div className="flex flex-col-reverse justify-between basis-full items-center py-3 bg-gray-100">
                         <ul>
                             <li 
-                            className="transition ease-in-out hover:bg-orange-600 rounded duration-200">
+                            className="text-sm transition ease-in-out hover:bg-orange-600 rounded duration-200">
                                 <Link href={"/chatbot"}>Chatbot</Link></li>
                             <li 
-                            className="transition ease-in-out hover:bg-orange-600 rounded duration-200">
+                            className="text-sm transition ease-in-out hover:bg-orange-600 rounded duration-200">
                                 <Link href={"/mecanicas"}>Mecânicas</Link></li>
                             <li 
-                            className="transition ease-in-out hover:bg-orange-600 rounded duration-200">
+                            className="text-sm transition ease-in-out hover:bg-orange-600 rounded duration-200">
                                 <Link href={"/sobre"}>Sobre nós</Link></li>
                             <li 
-                            className="transition ease-in-out hover:bg-orange-600 rounded duration-200">
+                            className="text-sm transition ease-in-out hover:bg-orange-600 rounded duration-200">
                                 <Link href={"/membros"}>Membros</Link></li>
-                            <li className="transition ease-in-out hover:bg-orange-600 rounded duration-200"><Link href={"/cliente"}>Área do Cliente</Link></li>
+                            <li className="text-sm transition ease-in-out hover:bg-orange-600 rounded duration-200"><Link href={"/cliente"}>Área do Cliente</Link></li>
                         </ul>
                     </div>
                 )

@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        footerColor: "#f5f5f5",
+        instagramColor: "#E4405F",
+        facebookColor: "#2b3be0",
+        whatsappColor: "#23d000",
       },
       screens: {
         'max-sm': {'max' : '768px'}
