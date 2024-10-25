@@ -42,7 +42,7 @@ export default function Menu() {
                     <li 
                     className="transition ease-in-out hover:text-orange-600 duration-200 md:text-sm">
                         <Link href={"/membros"}>Membros</Link></li>
-                    <li className="md:navButton"><Link href={"/cliente"}>Área do Cliente</Link></li>
+                    <li className="md:navButton"><Link href={"/cliente/login"}>Área do Cliente</Link></li>
                 </ul>
             </div>
 

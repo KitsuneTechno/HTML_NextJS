@@ -40,5 +40,9 @@
     }
   }
 
-  
+  .styleButton{
+    @apply inline-block p-2 m-4 text-black text-xs sm:text-base sm:p-1 md:text-2xl font-semibold
+    no-underline text-center border-solid border-black rounded-xl transition ease-in-out hover:bg-black
+    hover:text-orange-600 duration-200;
+  }
 }

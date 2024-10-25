@@ -1,3 +1,4 @@
+import Section from "@/components/Section/Section";
 
 export default function Home() {
   return (
@@ -11,9 +12,9 @@ export default function Home() {
           </h1>
           <p className="mb-12 text-xs md:text-xl">Com nosso AutoBot, você identifica o problema do seu veículo, recebe o orçamento dos serviços e agenda a manutenção dele em minutos.</p>
         </div>
-
-        
       </div>
+
+      <Section/>
 
     </>
   )
