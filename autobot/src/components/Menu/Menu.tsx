@@ -1,8 +1,8 @@
 "use client";
 
-import logoAutobot from "@/img/logo-autobot.png"
-import Image from 'next/image'
-import Link from 'next/link'
+import logoAutobot from "@/img/logo-autobot.png";
+import Image from 'next/image';
+import Link from 'next/link';
 import '../../app/globals.css';
 import { useState } from "react";
 import { IoMenu as Burguer, IoClose as CloseBtn } from "react-icons/io5";

@@ -15,6 +15,7 @@ const config: Config = {
         instagramColor: "#E4405F",
         facebookColor: "#2b3be0",
         whatsappColor: "#23d000",
+        cardColor: "#663129",
       },
       screens: {
         'max-sm': {'max' : '768px'}
