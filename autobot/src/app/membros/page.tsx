@@ -13,7 +13,7 @@ export default function Membros(){
                 <Image 
                 src={LogoKitsune} 
                 alt="Logo da Kitsune Tech"
-                className="block w-60 sm:w-80 md:w-2/4 m-8 pb-44"/>
+                className="block w-60 sm:w-80 md:w-2/4 m-8 pb-44 lg:pb-40"/>
             </div>
 
             <div className="flex items-center justify-center gap-2 h-7 sm:gap-4 md:gap-8 mb-8">

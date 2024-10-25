@@ -64,11 +64,11 @@
     }
 
     & h4, h5{
-      @apply text-xs mt-3 sm:mt-2 md:text-base text-white;
+      @apply text-xsm mt-3 sm:mt-2 md:text-base text-white;
     }
 
     & a{
-      @apply inline-block text-xs p-1 sm:mt-2 sm:font-normal md:text-xs md:mt-4 md:p-2
+      @apply inline-block text-xsm p-1 sm:mt-2 sm:font-normal md:text-xs md:mt-4 md:p-2
       border-solid border-2 border-gray-400 rounded-xl cursor-pointer md:font-semibold text-gray-400
       no-underline transition ease-in-out hover:bg-black hover:text-white hover:border-black
       duration-200;
@@ -78,7 +78,7 @@
   .btnRepository{
     @apply block text-gray-400 no-underline font-bold text-center
     text-lg sm:text-2xl md:text-3xl transition ease-in-out hover:text-blue-500
-    hover:underline duration-200 mt-48;
+    hover:underline duration-200 mt-48 lg:mt-44;
   }
 
   .aboutContainer{
@@ -90,7 +90,7 @@
     }
 
     & h3{
-      @apply font-semibold mb-3 text-center;
+      @apply font-semibold mb-1 sm:mb-3 text-center;
     }
 
     & p{

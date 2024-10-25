@@ -19,6 +19,10 @@ const config: Config = {
       },
       screens: {
         'max-sm': {'max' : '768px'}
+      },
+      fontSize: {
+        xsm: "0.5rem",
+        slm: "0.6rem"
       }
     },
   },
