@@ -82,7 +82,7 @@
   }
 
   .aboutContainer{
-    @apply p-8 sm:p-12 md:p-8 max-h-screen bg-gradient-to-t from-orange-500  to-white
+    @apply p-6 sm:p-12 md:p-8 max-h-screen bg-gradient-to-t from-orange-500  to-white
     mb-16 relative;
 
     & h1{
