@@ -19,9 +19,12 @@
 
 <h2>Funcionamento da aplicação</h2>
 
-<p>A aplicação para funcionar devidamente primeiro deve-se seguir os passos para colocar no ar um projeto React + Typescript, além disso se é necessário fazer o download no terminal da sua máquina 
- estes itens: styled-components, react-router-dom e react-icons, todos usando o comando npm install no terminal da máquina.
+<p>A aplicação para funcionar devidamente primeiro deve-se seguir os passos para colocar no ar um projeto NextJs, além disso se é necessário fazer o download no terminal da sua máquina 
+ estes itens: react-router-dom e react-icons, todos usando o comando npm install no terminal da máquina.
 </p>
+
+<p>Para funcionar a API local do Java é necessário dar play no arquivo main do programa, fazendo assim a aplicação rodar, recomendo realizar esse play no IntelliJ para evitar
+problemas, mas caso use no VS garanta que você tenha instalado as extensões de java no seu vs code.</p>
 
 <h2>As telas</h2>
 
@@ -34,8 +37,7 @@
 
 <h3>Login e Cadastro</h3>
 
-<p>Nestas páginas você poderá realizar seu cadastro e login na aplicação, um teste foi feito utilizando o email "w@e.com" e a senha "1234567" e foi mostrado que a aplicação consegue
- armazenar as informações no localStorage da página.
+<p>Nestas páginas você poderá realizar seu cadastro e login na aplicação, ele é feito por meio da api, no caso só o cadastro está funcional no momento.
 </p>
 
 <p>Para acessar a página de login pode-se utilizar o botão "Área do Cliente" ou o botão "Dê o primeiro passo"</p>
@@ -52,8 +54,7 @@ qual a nossa missão, o que nós fazemos e o porque nos escolher.
 
 <h3>Mecânicas</h3>
 
-<p>Na página de Mecânicas é possível ver algumas mecânicas que estarão integradas no nosso banco de dados para ajudar nas suas necessidades,
- atualmente temos 3 mecânicas da Porto Seguro ali inseridas para fazer uma demonstração de como as mecânicas aparecerão na aplicação.
+<p>Na página de Mecânicas é possível ver algumas mecânicas que estarão integradas no nosso banco de dados para ajudar nas suas necessidades
 </p>
 
 <h3>Chatbot</h3>
@@ -70,10 +71,9 @@ qual a nossa missão, o que nós fazemos e o porque nos escolher.
 <h3>Luciayla Yumi - RM557987 - 1TDSPO</h3>
 
 
-<h1>Link para o vídeo da aplicação</h1>
+<h1>Link para a Vercel</h1>
 
-https://youtu.be/4biY10EWfOA
-
+autobot-pi.vercel.app
 
 <h1>Link para o Figma</h1>
 
