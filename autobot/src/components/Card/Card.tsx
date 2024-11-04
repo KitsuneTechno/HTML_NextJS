@@ -9,7 +9,7 @@ export default function Card(){
     const [loading, setLoading] = useState(true);
 
     const chamadaDaApi = async () => {
-        const response = await fetch("http://localhost:3000/api/mecanicas");
+        const response = await fetch("/api/mecanicas");
         const dados = await response.json();
         setMecanicas(dados);
         setLoading(false);
