@@ -74,7 +74,7 @@ export default function Cadastro(){
                     <input type="text" placeholder="Insira seu nome" name="nome" onChange={(e)=> handleChange(e)}
                      id="idNm" value={cliente.nome} className="inputForm" required/>
 
-                    <input type="text" name="dataNascimento" onChange={(e)=> handleChange(e)}
+                    <input type="text" name="dataNascimento" onChange={(e)=> handleChange(e)} placeholder="Insira sua data de nascimento"
                      id="idDtNasc" value={cliente.dataNascimento} className="inputForm" required/>
 
                     <input type="text" placeholder="Insira seu genero(f,m)" name="genero" onChange={(e)=> handleChange(e)}
