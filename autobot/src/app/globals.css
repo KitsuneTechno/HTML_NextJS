@@ -127,6 +127,26 @@
       hover:text-white hover:bg-blue-600 duration-200;
     }
   }
+
+  .inputForm{
+    @apply text-base p-[0.6] sm:text-2xl sm:p-3 w-full border-solid rounded border-2 border-gray-400;
+  }
+
+  .btn{
+    @apply text-orange-600 border-solid rounded border-2 border-orange-600 bg-white 
+    font-medium sm:font-semibold p-[0.4rem] inline-block cursor-pointer hover:text-white
+    hover:border-blue-600 hover:bg-blue-600 transition-all ease-in-out duration-200;
+  }
+
+  .logarCom{
+    @apply flex p-[0.4rem] gap-[0.2rem] text-[0.6rem] sm:p-[0.8] sm:gap-4 sm:text-xl text-black
+    border-solid rounded border-gray-400 border-2 font-normal no-underline hover:bg-gray-400
+    transition ease-in-out duration-200;
+
+    & img{
+      @apply w-4 h-4 sm:w-6 sm:h-6;
+    }
+  }
 }
 
 @keyframes blink {
