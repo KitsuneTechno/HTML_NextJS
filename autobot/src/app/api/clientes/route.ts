@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
-export async function POST(request: Request) {
-    
+export async function POST() {
+
     try {
 
         const response = await fetch("http://localhost:8080/clientes")
