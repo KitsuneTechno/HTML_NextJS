@@ -98,4 +98,28 @@
     }
 
   }
+
+  .containerCard {
+    @apply items-center mt-8 p-8 gap-16 bg-slate-300
+    border-solid border-2 border-gray-700 rounded sm:flex;
+
+    & p{
+      @apply text-xs mb-2 text-center sm:mb-4;
+    }
+
+    & h3{
+      @apply text-center font-semibold mb-4;
+    }
+  }
+
+  .linkPorto{
+    @apply pt-4 text-center sm:pt-8;
+
+    & a{
+      @apply no-underline text-sm p-[0.4rem] sm:p-[0.6]
+      text-orange-600 border-solid border-2 border-orange-600 rounded
+      cursor-pointer transition-all ease-in-out hover:border-blue-600
+      hover:text-white hover:bg-blue-600 duration-200;
+    }
+  }
 }
