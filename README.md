@@ -24,7 +24,7 @@
 </p>
 
 <p>Para funcionar a API local do Java é necessário dar play no arquivo main do programa, fazendo assim a aplicação rodar, recomendo realizar esse play no IntelliJ para evitar
-problemas, mas caso use no VS garanta que você tenha instalado as extensões de java no seu vs code.</p>
+problemas, mas caso use no VS garanta que você tenha instalado as extensões de java no seu vs code, a pasta de java será a que vier junto com o zip.</p>
 
 <h2>As telas</h2>
 
@@ -73,7 +73,7 @@ qual a nossa missão, o que nós fazemos e o porque nos escolher.
 
 <h1>Link para a Vercel</h1>
 
-autobot-pi.vercel.app
+[autobot-pi.vercel.app](https://autobot-fawn.vercel.app/)
 
 <h1>Link para o Figma</h1>
 
